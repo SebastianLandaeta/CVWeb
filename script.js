@@ -40,6 +40,7 @@ const translations = {
     experience3: 'Refactored the first version of an Adabas Natural to TypeScript converter.',
     skillsTitle: 'Skills',
     databasesTitle: 'Databases',
+    langToolsTitle: 'Languages & Tools',
     languagesTitle: 'Languages',
     spanishText: 'Spanish (Native)',
     englishText: 'English (B2)',
@@ -63,6 +64,7 @@ const translations = {
     experience3: 'Refactoricé la primera versión de un convertidor de Adabas Natural a TypeScript.',
     skillsTitle: 'Habilidades',
     databasesTitle: 'Bases de Datos',
+    langToolsTitle: 'Lenguajes & Herramientas',
     languagesTitle: 'Idiomas',
     spanishText: 'Español (Nativo)',
     englishText: 'Inglés (B2)',
@@ -91,6 +93,7 @@ function applyLanguage(lang) {
   document.getElementById('experience3').textContent = translations[lang].experience3;
   document.getElementById('skillsTitle').textContent = translations[lang].skillsTitle;
   document.getElementById('databasesTitle').textContent = translations[lang].databasesTitle;
+  document.getElementById('langToolsTitle').textContent = translations[lang].langToolsTitle;
   document.getElementById('languagesTitle').textContent = translations[lang].languagesTitle;
   document.getElementById('spanishText').textContent = translations[lang].spanishText;
   document.getElementById('englishText').textContent = translations[lang].englishText;
