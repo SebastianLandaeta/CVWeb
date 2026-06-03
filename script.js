@@ -32,7 +32,7 @@ const translations = {
     educationTitle: 'Education',
     degreeText: 'Degree obtained: Software Engineer.',
     subjectsText: 'Featured subjects: Web Development and Databases (SQL and NoSQL).',
-    thesisText: 'Final project: Intelligent Agent for the Development of Cognitive Skills in Preschool Children.',
+    thesisText: 'Final project: Intelligent Agent for the Development of Cognitive Skills in Preschool Children (Approved with honors).',
     experienceTitle: 'Experience',
     experienceRole: 'Frontend Developer Intern',
     experience1: 'Transformed the OpenSIPCA frontend project from a monolithic Angular project into a microfrontend architecture.',
@@ -46,6 +46,7 @@ const translations = {
     englishText: 'English (B2)',
     projectsTitle: 'Featured Projects',
     CUNEGtitle: 'CUNEG Certificate Generator System',
+    CUNEGtext: 'Community service project to generate certificates.',
     nubiText: 'Intelligent Agent for the Development of Cognitive Skills in Preschool Children.'
   },
   es: {
@@ -56,7 +57,7 @@ const translations = {
     educationTitle: 'Educación',
     degreeText: 'Grado obtenido: Ingeniero en Informática.',
     subjectsText: 'Materias destacadas: Desarrollo Web y Bases de Datos (SQL y NoSQL).',
-    thesisText: 'Proyecto final: Agente Inteligente para el Desarrollo de Habilidades Cognitivas en Niños de Etapa Preescolar.',
+    thesisText: 'Proyecto final: Agente Inteligente para el Desarrollo de Habilidades Cognitivas en Niños de Etapa Preescolar (Aprobado con honores).',
     experienceTitle: 'Experiencia',
     experienceRole: 'Pasante de Desarrollo Frontend',
     experience1: 'Transformé el proyecto frontend de OpenSIPCA de un monolítico en Angular a una arquitectura de microfrontends.',
@@ -70,6 +71,7 @@ const translations = {
     englishText: 'Inglés (B2)',
     projectsTitle: 'Proyectos Destacados',
     CUNEGtitle: 'Sistema Generador de Certificados CUNEG',
+    CUNEGtext: 'Proyecto de servicio comunitario para generar certificados.',
     nubiText: 'Agente Inteligente para el Desarrollo de Habilidades Cognitivas en Niños de Etapa Preescolar.'
   }
 };
@@ -99,6 +101,7 @@ function applyLanguage(lang) {
   document.getElementById('englishText').textContent = translations[lang].englishText;
   document.getElementById('projectsTitle').textContent = translations[lang].projectsTitle;
   document.getElementById('CUNEGtitle').textContent = translations[lang].CUNEGtitle;
+  document.getElementById('CUNEGtext').textContent = translations[lang].CUNEGtext;
   document.getElementById('nubiText').textContent = translations[lang].nubiText;
   langButton.textContent = lang === 'en' ? 'ES' : 'EN';
 }
