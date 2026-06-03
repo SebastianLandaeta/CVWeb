@@ -1,0 +1,16 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.skill {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  background: rgb(59 130 246 / 15%);
+  color: rgb(59 130 246);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
