@@ -41,6 +41,7 @@ const translations = {
     skillsTitle: 'Skills',
     databasesTitle: 'Databases',
     langToolsTitle: 'Languages & Tools',
+    cmsTitle: 'Content Management System',
     languagesTitle: 'Languages',
     spanishText: 'Spanish (Native)',
     englishText: 'English (B2)',
@@ -66,6 +67,7 @@ const translations = {
     skillsTitle: 'Habilidades',
     databasesTitle: 'Bases de Datos',
     langToolsTitle: 'Lenguajes & Herramientas',
+    cmsTitle: 'Sistema de Gestión de Contenidos',
     languagesTitle: 'Idiomas',
     spanishText: 'Español (Nativo)',
     englishText: 'Inglés (B2)',
@@ -96,6 +98,7 @@ function applyLanguage(lang) {
   document.getElementById('skillsTitle').textContent = translations[lang].skillsTitle;
   document.getElementById('databasesTitle').textContent = translations[lang].databasesTitle;
   document.getElementById('langToolsTitle').textContent = translations[lang].langToolsTitle;
+  document.getElementById('cmsTitle').textContent = translations[lang].cmsTitle;
   document.getElementById('languagesTitle').textContent = translations[lang].languagesTitle;
   document.getElementById('spanishText').textContent = translations[lang].spanishText;
   document.getElementById('englishText').textContent = translations[lang].englishText;
