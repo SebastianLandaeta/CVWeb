@@ -27,7 +27,7 @@
 
 ### 🚀 Proyectos Desplegados
 
-* 🌐 [**Sebastián Landaeta | Software Engineer (CV Web)**](https://sebastianlandaeta.github.io/CVWeb/) — CV Web personal interactivo desarrollado para presentar mi trayectoria y habilidades.
+* 🌐 [**Sebastián Landaeta | Software Engineer (CV Web)**](https://sebastianlandaeta.github.io/SebastianLandaeta/) — CV Web personal interactivo desarrollado para presentar mi trayectoria y habilidades.
 
 * ☁️ [**Nubi**](https://sebaslandaold.github.io/nubi/) — Agente inteligente para el desarrollo de habilidades cognitivas en niños de preescolar.
 
